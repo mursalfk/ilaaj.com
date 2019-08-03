@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Sign In | Ilaaj.com</title>
+        <script src=".js/sign_up.js"></script>
+        <link rel="stylesheet" href=".css/sign_in.css">
+    </head>
+    <body>
+        <ul class="display">
+            <span class="mainHeader"><a href="home.html"><i>ilaaj.com</i></a></span>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="sign_in.html">Admin Portal</a></li>
+            <li><a href="doctor.html">Find a Doctor</a></li>
+            <li><a href="diagnose.html">Diagnose Yourself</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+        <div id="main" >
+            <div class="header">
+                Admin Portal : Sign In
+            </div>
+            <form action=".php/sign_up.php" method="GET" onsubmit="return checkForm(this);">
+                <table align="center">
+                    <tr><th>Username</th>
+                        <td><input type="text" maxlength="12" minlength="6" placeholder="Username" name="username" id="uname" required></td>                   
+                    </tr>
+                    <tr><th>Password</th>
+                        <td><input type="password" maxlength="12" minlength="6" placeholder="Password" name="password" id="pwd" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="button" value="Sign In" id="buts_in">
+                        <a href="sign_up.html"><input type="button" id="buts_up" value="Sign Up"></a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <footer>Ilaaj.com</footer>
+    </body>
+</html>
+
