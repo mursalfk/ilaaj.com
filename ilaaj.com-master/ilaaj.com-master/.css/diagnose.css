@@ -1,0 +1,131 @@
+#main {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 550px;
+  top:20px;
+  margin:0 auto;
+  max-width: 750px;
+  position: relative;
+}
+
+input:focus{
+    background-color: #e7fffa;
+    color: rgb(44, 46, 48);
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.15);
+}
+input[type=text]{
+    border-radius: 100pt;
+    padding-left: 10px;
+    font-weight:bolder;
+}
+input[type=reset]{
+    right: 5%;
+    position: fixed;
+    top: 530px;
+    width: 100px;
+    border-radius: 100%;
+    color: aliceblue;
+    background-color:#1abc9c;
+    font-weight:bolder;
+    width: 75px;
+    height: 75px;
+    text-align-last:auto;
+}
+#buts_in{
+    right: 5%;
+    position: fixed;
+    top: 430px;
+    width: 100px;
+    border-radius: 100%;
+    color: aliceblue;
+    background-color:#1abc9c;
+    font-weight:bolder;
+    width: 75px;
+    height: 75px;
+    text-align-last:auto;   
+}
+input[type=checkbox]:hover, label:hover{
+    font-weight: bold
+}
+input[type=button]:hover, input[type=reset]:hover{
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    height: auto;
+    font-size: 30px;
+}
+td{
+    height:35px;
+    border-bottom: #000000;
+    text-align-last:left;
+    padding-left:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1abc9c;
+}
+li {
+    font-size: 20px;
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 9px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #18a387;
+}
+.mainHeader, .mainHeader a{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    position: fixed;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-family: fantasy;
+    text-decoration: none;
+    font-style: oblique;
+}
+table{
+    margin-left: 10px;
+    
+}
+footer{
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+}
+.diag{
+    height: 10px;
+    text-align: left;
+    font-size: 25;
+    max-width: 650px;
+    position: relative;
+}
+.medication{
+    border: #1abc9c 2px solid;
+    height: 120px;
+    text-align: left;
+    padding: 25px;
+    font-size: 25;
+    max-width: 650px;
+    position: relative;
+}

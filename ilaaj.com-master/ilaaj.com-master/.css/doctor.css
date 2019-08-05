@@ -1,0 +1,119 @@
+#main {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  height: 225px;
+  top:180px;
+  margin:0 auto;
+  max-width: 400px;
+  position: relative;
+}
+input:hover{
+    background-color: #e7fffa;
+}
+input:focus{
+    background-color: #e7fffa;
+    color: rgb(44, 46, 48);
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.15);
+}
+input[type=text],input[type=password]{
+    border-radius: 100pt;
+    padding-left: 10px;
+    margin-bottom:4px;
+    margin-top:4px;
+    font-weight:bolder;
+    }
+#buts_in{
+    position: relative;
+    width: auto;
+    border-radius: 10%;
+    color: aliceblue;
+    background-color:#1abc9c;
+    font-weight:bolder;
+    width: 75px;
+    height: 45px;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align-last:auto;    
+}
+#buts_up{
+    position: relative;
+    width: auto;
+    border-radius: 10%;
+    color: aliceblue;
+    background-color:#1abc9c;
+    font-weight:bolder;
+    width: 75px;
+    height: 45px;
+    text-align-last:auto;   
+}
+input[type=button]:hover{
+    color: #235047;
+    background-color:#00ffcc;
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.21);
+}
+input[type=submit]:hover, input[type=reset]:hover{
+    color: #235047;
+    background-color:#00ffcc;
+    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.5);
+
+}
+.header {
+    margin-bottom: 30px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    height: auto;
+    font-size: 30px;
+}
+td{
+    height:35px;
+    border-bottom: #000000;
+    text-align-last:left;
+    padding-left:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1abc9c;
+}
+li {
+    font-size: 20px;
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 9px;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #18a387;
+}
+.mainHeader, .mainHeader a{
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 3px;
+    font-family: fantasy;
+    text-decoration: none;
+    font-style: oblique;
+}
+table{
+    margin-top: 25px;
+}
+footer{
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    font-size: 20px;
+}

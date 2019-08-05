@@ -9,6 +9,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
   height: 440px;
   top:70px;
+  background-color: #0b09631f;
   margin:0 auto;
   max-width: 700px;
   position: relative;
@@ -40,7 +41,7 @@ input[type=submit]{
     width: 100px;
     border-radius: 100%;
     color: aliceblue;
-    background-color:#1abc9c;
+    background-color:#150930;
     font-weight:bolder;
     width: 75px;
     height: 75px;
@@ -53,7 +54,7 @@ input[type=reset]{
     width: 100px;
     border-radius: 100%;
     color: aliceblue;
-    background-color:#1abc9c;
+    background-color:#150930;
     font-weight:bolder;
     width: 75px;
     height: 75px;
@@ -66,7 +67,7 @@ input[type=button]{
     width: 100px;
     border-radius: 100%;
     color: aliceblue;
-    background-color:#1abc9c;
+    background-color:#150930;
     font-weight:bolder;
     width: 75px;
     height: 75px;
@@ -75,6 +76,7 @@ input[type=button]{
 
 input[type=submit]:hover,  input[type=reset]:hover, input[type=button]:hover{
     box-shadow:  0 10px 15px rgba(0, 0, 0, 0.5);
+    background-color: #060564
 }
 h2{
     padding-top:10px
@@ -91,7 +93,7 @@ input[type=radio]:hover,input[type=checkbox]:hover, label:hover{
 .header2 {
     margin-bottom: 30px;
     text-align: center;
-    background: #1abc9c;
+    background: #060564;
     color: white;
     height: 70px;
     font-size: 30px;
@@ -99,7 +101,7 @@ input[type=radio]:hover,input[type=checkbox]:hover, label:hover{
 .header {
     margin-bottom: 30px;
     text-align: center;
-    background: #1abc9c;
+    background: #060564;
     color: white;
     height: auto;
     font-size: 30px;
@@ -116,7 +118,7 @@ ul {
     margin: -8px;
     padding: 0;
     overflow: hidden;
-    background-color: #1abc9c;
+    background-color: #060564;
 }
 li {
     font-size: 20px;
@@ -131,7 +133,7 @@ li a {
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #18a387;
+    background-color: #0b0994;
 }
 .mainHeader, .mainHeader a{
     color: white;
@@ -150,14 +152,13 @@ li a:hover {
     border-color: black
 }
 table{
-    margin-top: -25px;
-    border-left: 6px #1abc9c solid;
-    border-right: 6px #1abc9c solid;
-    border-bottom: 6px #18a387 ridge;
+    margin-top: -20px;
+    border-left: #050353 5px ridge;
+    border-right: #050353 5px ridge
 }
 footer{
     text-align: center;
-    background: #1abc9c;
+    background: #050353;
     color: white;
     position: fixed;
     bottom: 0%;
@@ -166,6 +167,9 @@ footer{
     height: 25px;
     font-size: 20px;
 }
+#buts_in:hover{
+    background-color: #060564
+}
 #buts_in{
     right: 5%;
     position: fixed;
@@ -173,7 +177,7 @@ footer{
     width: 100px;
     border-radius: 100%;
     color: aliceblue;
-    background-color:#1abc9c;
+    background-color:#150930;
     font-weight:bolder;
     width: 75px;
     height: 75px;

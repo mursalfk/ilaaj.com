@@ -1,82 +1,50 @@
 #main {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  height: 225px;
-  top:180px;
+  height: 440px;
+  top:70px;
+  background-color: #0b09631f;
   margin:0 auto;
-  max-width: 400px;
+  max-width: 700px;
   position: relative;
 }
-input:hover{
-    background-color: #e7fffa;
+.teammate{
+    margin-top: 25px;
 }
-input:focus{
-    background-color: #e7fffa;
-    color: rgb(44, 46, 48);
-    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.15);
+img:hover > .team_intro{
+    display: block;
 }
-input[type=text],input[type=password]{
-    border-radius: 100pt;
-    padding-left: 10px;
-    margin-bottom:4px;
-    margin-top:4px;
-    font-weight:bolder;
-    }
-#buts_in{
-    position: relative;
-    width: auto;
-    border-radius: 10%;
-    color: aliceblue;
-    background-color:#1abc9c;
-    font-weight:bolder;
-    width: 75px;
-    height: 45px;
-    margin-top: 15px;
-    margin-left: 50px;
-    text-align-last:auto;    
+.team_intro{
+    width: 50%;
+    height:25%;
+    margin-top:120px;
+    left: 100px;
+    border: #050353 2px solid;
 }
-#buts_up{
-    position: relative;
-    width: auto;
-    border-radius: 10%;
-    color: aliceblue;
-    background-color:#1abc9c;
-    font-weight:bolder;
-    width: 75px;
-    height: 45px;
-    text-align-last:auto;   
-}
-input[type=button]:hover{
-    color: #235047;
-    background-color:#00ffcc;
-    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.21);
-}
-input[type=submit]:hover, input[type=reset]:hover{
-    color: #235047;
-    background-color:#00ffcc;
-    box-shadow:  0 10px 15px rgba(0, 0, 0, 0.5);
-
+#teammate{
+    border-radius: 100px;
 }
 .header {
-    margin-bottom: 30px;
+	transform: skew(340deg);
     text-align: center;
-    background: #1abc9c;
+    background: #050353;
     color: white;
+ position: fixed;
+    border-top: #464383 groove;
+    border-bottom: #eeeef5 groove;
+    border-radius: 10px;
+    position: relative;
+    left: 0;
+    margin-top: 25px;
+    width: 50%;
     height: auto;
-    font-size: 30px;
+    font-size: 35px;
 }
-td{
-    height:35px;
-    border-bottom: #000000;
-    text-align-last:left;
-    padding-left:10px;
-}
-
 ul {
     list-style-type: none;
     margin: -8px;
     padding: 0;
     overflow: hidden;
-    background-color: #1abc9c;
+    background-color: #060564;
 }
 li {
     font-size: 20px;
@@ -91,7 +59,7 @@ li a {
 }
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #18a387;
+    background-color: #0b0994;
 }
 .mainHeader, .mainHeader a{
     color: white;
@@ -103,12 +71,9 @@ li a:hover {
     text-decoration: none;
     font-style: oblique;
 }
-table{
-    margin-top: 25px;
-}
 footer{
     text-align: center;
-    background: #1abc9c;
+    background: #050353;
     color: white;
     position: fixed;
     bottom: 0%;
@@ -116,4 +81,55 @@ footer{
     width: 100%;
     height: 25px;
     font-size: 20px;
+}
+.container {
+    position: relative;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+  }
+.image {
+opacity: 1;
+box-shadow:  0 10px 15px rgba(0, 0, 0, 0.5);
+border: #eeeef5 4px;
+display: block;
+position: relative;
+height: 150px;
+width: 150px;
+border-radius: 100%;
+left: 0;
+transition: .5s ease;
+backface-visibility: hidden;
+}
+.image:hover{
+    height: 200px;
+    width: 200px;
+}
+.text:hover{
+      font-size: 20px;
+  }
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+  
+.container:hover .image {
+    opacity: 0.3;
+}
+  
+.container:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    background-color: #050353;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 }

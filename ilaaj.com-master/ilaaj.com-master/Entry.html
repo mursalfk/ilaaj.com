@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Entry | Ilaaj.com</title>
+        <script>
+function MDiv() {
+                var x = document.getElementById("M_div");
+                if(x.style.display === "block") {
+                    x.style.display = "none";
+                    document.getElementById('MBut');               
+                } else {
+                    x.style.display = "block";
+                    document.getElementById('MBut');
+                } 
+}			  
+function DDiv() {
+                var y = document.getElementById("D_div");
+                if (y.style.display === "block") {
+                    y.style.display = "none";
+                    document.getElementById('DBut');             
+                } else {
+                    y.style.display = "block";
+                    document.getElementById('DBut');
+                } 
+            }
+            </script>
+        <link rel="stylesheet" href=".css/sign_up.css">
+    </head>
+    <body>
+        <ul class="display">
+            <span class="mainHeader"><a href="home.html"><i>ilaaj.com</i></a></span>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="sign_in.html">Admin Portal</a></li>
+            <li><a href="doctor.html">Find a Doctor</a></li>
+            <li><a href="diagnose.html">Diagnose Yourself</a></li>
+            <li><a href="home.html">Home</a></li>
+        </ul>
+        <div id="main" >
+            <div class="header">
+                  Entry Form
+            </div>
+           
+            <div><h3>Select What you want to Add:</h3>
+           <center> <Button  onClick="DDiv()" id="DBut"> Doctor</Button>
+             <Button  onClick="MDiv()" id="MBut"> Medicine</Button></center>
+              
+        </div>
+        </div>
+
+ <div id="M_div">
+            <div class="header">
+                Medicine Entry Form
+            </div>
+            
+                <table align="center">
+                    <tr><th>Medicine Name</th>
+                        <td><input type="text"  id="Mname"></td>                   
+                    </tr>
+                    <tr><th>Normal Dosage</th>
+                        <td><input type="Text" id="N_dosage"></td>
+                    </tr>
+                     <tr><th>Used For</th>
+                        <td><input type="Text" id="disease" ></td>
+                    </tr>
+                     <tr><th>Price per tablet</th>
+                        <td><input type="number" id="price"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Add" id="buts_up">
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+          <div id="main" >
+            <div id="D_div">
+            <div class="header">
+                Doctor Entry Form
+            </div>
+            
+                <table align="center">
+                    <tr><th> Full Name</th>
+                        <td><input type="text"  id="Fname"></td>                   
+                    </tr>
+                    <tr><th>Specialization</th>
+                        <td><input type="Text" id="Spec"></td>
+                    </tr>
+                     <tr><th>Address</th>
+                        <td><input type="Text" id="Addr" ></td>
+                    </tr>
+                     <tr><th>Timings</th>
+                        <td><input type="time" id="time"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center"><input type="submit" value="Add" id="buts_up"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        </div>
+   </body>
+</html>
+
