@@ -1,4 +1,4 @@
 function mursal(){
-    window.alert("sometext");
-    var item = document.getElementById("team_intro").value="Mursal Furqan";
+    // window.alert("sometext");
+    document.getElementById("intro").innerHTML="Mursal Furqan";
 }
