@@ -3,7 +3,7 @@
   height: 450px;
   top:70px;
   background-color: #0b09631f;
-  left:50;
+  margin-left: 50px ;
   max-width: 700px;
   position: relative;
 }
@@ -12,14 +12,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #intro{
-    font-size: 15px;
+    font-size: 15px auto;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 #forward_sign{
     padding: 10px;
     padding-top: 25px;
-    font-size: 25px;
+    font-size: 25px auto;
     color: #150930;
     font-weight: bolder
 }
@@ -75,7 +75,8 @@ input[type=button]:hover{
     font-size: 30px;
 }
 td{
-    height:35px;
+    font-size: auto;
+    height:35px auto;
     border-bottom: #000000;
     text-align-last:center;
     padding-left:10px;
@@ -85,7 +86,7 @@ td{
     text-align: center;
 }
 marquee{
-    padding-top: 20px
+    padding-top: 10px
 }
 #welcome_text{
     text-align: center;
@@ -139,5 +140,5 @@ footer{
 }
 table{
     border-left: #050353 5px ridge;
-    border-right: #050353 5px ridge
+    border-right: #050353 5px ridge;
 }
